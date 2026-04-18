@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>St. Joseph's Practice Primary School | Official Website</title>
+    <title>St. Joseph's Practice Primary School | Obi Dan Obi</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -48,7 +48,7 @@
         .btn-success { background: linear-gradient(135deg, #28a745, #218838); color: white; }
         
         .section-title {
-            font-size: 2.8rem;
+            font-size: 2.5rem;
             font-weight: 800;
             margin-bottom: 20px;
             color: var(--green-dark);
@@ -58,9 +58,9 @@
         .section-title:after {
             content: '';
             position: absolute;
-            bottom: -15px;
+            bottom: -12px;
             left: 0;
-            width: 100px;
+            width: 80px;
             height: 4px;
             background: var(--orange-gradient);
             border-radius: 4px;
@@ -87,102 +87,83 @@
         .swiper-slide { position: relative; background-size: cover; background-position: center; }
         .swiper-slide::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, rgba(0,0,0,0.5), rgba(0,0,0,0.3)); }
         .slide-content { position: absolute; top: 50%; left: 10%; transform: translateY(-50%); color: white; max-width: 600px; }
-        .slide-content h2 { font-size: 3.5rem; font-weight: 800; margin-bottom: 20px; text-shadow: 2px 2px 15px rgba(0,0,0,0.3); }
-        .slide-content p { font-size: 1.2rem; margin-bottom: 25px; }
+        .slide-content h2 { font-size: 3rem; font-weight: 800; margin-bottom: 20px; text-shadow: 2px 2px 15px rgba(0,0,0,0.3); }
+        .slide-content p { font-size: 1.1rem; margin-bottom: 25px; }
         .slide-badge { display: inline-block; background: var(--orange-gradient); padding: 6px 18px; border-radius: 50px; font-size: 0.8rem; margin-bottom: 20px; }
         .swiper-button-next, .swiper-button-prev { color: white; background: rgba(0,0,0,0.3); width: 45px; height: 45px; border-radius: 50%; transition: 0.3s; }
         .swiper-button-next:hover, .swiper-button-prev:hover { background: var(--orange); transform: scale(1.1); }
         .swiper-pagination-bullet { width: 12px; height: 12px; background: white; opacity: 0.7; }
         .swiper-pagination-bullet-active { background: var(--orange); transform: scale(1.2); }
         
-        .features-section { padding: 100px 0; background: white; }
-        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 35px; margin-top: 60px; }
-        .feature-card { background: white; padding: 40px 30px; border-radius: 30px; text-align: center; box-shadow: var(--shadow-md); transition: 0.4s; cursor: pointer; }
+        .features-section { padding: 80px 0; background: white; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 35px; margin-top: 50px; }
+        .feature-card { background: white; padding: 35px 25px; border-radius: 30px; text-align: center; box-shadow: var(--shadow-md); transition: 0.4s; cursor: pointer; }
         .feature-card:hover { transform: translateY(-10px); box-shadow: var(--shadow-lg); }
-        .feature-card i { font-size: 3.5rem; background: var(--orange-gradient); -webkit-background-clip: text; background-clip: text; color: transparent; margin-bottom: 20px; }
-        .feature-card h3 { font-size: 1.5rem; margin-bottom: 15px; color: var(--green-dark); }
+        .feature-card i { font-size: 3rem; background: var(--orange-gradient); -webkit-background-clip: text; background-clip: text; color: transparent; margin-bottom: 20px; }
+        .feature-card h3 { font-size: 1.3rem; margin-bottom: 12px; color: var(--green-dark); }
         
-        .stats-section { background: linear-gradient(135deg, #1B5E20, #2E7D32); padding: 80px 0; color: white; position: relative; overflow: hidden; }
-        .stats-section::before { content: ''; position: absolute; top: -50%; right: -10%; width: 300px; height: 300px; background: rgba(255,255,255,0.05); border-radius: 50%; }
-        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 50px; text-align: center; }
-        .stat-item h2 { font-size: 3rem; font-weight: 800; margin-bottom: 10px; }
-        .stat-item p { font-size: 1.1rem; opacity: 0.9; letter-spacing: 1px; }
+        .stats-section { background: linear-gradient(135deg, #1B5E20, #2E7D32); padding: 60px 0; color: white; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; text-align: center; }
+        .stat-item h2 { font-size: 2.8rem; font-weight: 800; margin-bottom: 8px; }
+        .stat-item p { font-size: 1rem; opacity: 0.9; }
         
-        .blog-section { padding: 100px 0; background: var(--gray-light); }
-        .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 35px; margin-top: 60px; }
-        .blog-card { background: white; border-radius: 30px; overflow: hidden; box-shadow: var(--shadow-md); transition: 0.4s; cursor: pointer; }
-        .blog-card:hover { transform: translateY(-10px); box-shadow: var(--shadow-lg); }
-        .blog-media { height: 250px; background: linear-gradient(135deg, #2E7D32, #FFC107); display: flex; align-items: center; justify-content: center; position: relative; }
-        .blog-media i { font-size: 3rem; color: white; text-shadow: 2px 2px 10px rgba(0,0,0,0.5); }
+        .blog-section { padding: 80px 0; background: var(--gray-light); }
+        .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 35px; margin-top: 50px; }
+        .blog-card { background: white; border-radius: 24px; overflow: hidden; box-shadow: var(--shadow-md); transition: 0.4s; cursor: pointer; }
+        .blog-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); }
+        .blog-media { height: 220px; background: linear-gradient(135deg, #2E7D32, #FFC107); display: flex; align-items: center; justify-content: center; position: relative; }
+        .blog-media i { font-size: 3rem; color: white; }
         .blog-date { position: absolute; bottom: 15px; left: 15px; background: rgba(0,0,0,0.6); color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.7rem; }
-        .blog-content { padding: 25px; }
-        .blog-title { font-size: 1.3rem; margin-bottom: 12px; color: var(--green-dark); }
-        .blog-excerpt { color: #666; margin-bottom: 20px; line-height: 1.6; }
-        .read-more-btn { background: none; border: none; color: var(--orange); font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 10px; transition: gap 0.3s; }
-        .read-more-btn:hover { gap: 15px; }
+        .blog-content { padding: 20px; }
+        .blog-title { font-size: 1.2rem; margin-bottom: 10px; color: var(--green-dark); }
+        .blog-excerpt { color: #666; margin-bottom: 15px; line-height: 1.5; }
+        .read-more-btn { background: none; border: none; color: var(--orange); font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
+        .read-more-btn:hover { gap: 12px; }
         
-        .gallery-section { padding: 100px 0; background: white; }
-        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px; margin-top: 50px; }
-        .gallery-item { position: relative; border-radius: 24px; overflow: hidden; cursor: pointer; height: 280px; background-size: cover; background-position: center; transition: 0.4s; }
-        .gallery-item:hover { transform: scale(1.03); box-shadow: var(--shadow-lg); }
-        .gallery-overlay { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.8)); padding: 25px; color: white; transform: translateY(100%); transition: 0.3s; }
+        .gallery-section { padding: 80px 0; background: white; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 40px; }
+        .gallery-item { position: relative; border-radius: 20px; overflow: hidden; cursor: pointer; height: 250px; background-size: cover; background-position: center; transition: 0.4s; }
+        .gallery-item:hover { transform: scale(1.02); box-shadow: var(--shadow-lg); }
+        .gallery-overlay { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.7)); padding: 20px; color: white; transform: translateY(100%); transition: 0.3s; }
         .gallery-item:hover .gallery-overlay { transform: translateY(0); }
-        .gallery-overlay h3 { font-size: 1.2rem; margin-bottom: 5px; }
+        .gallery-overlay h3 { font-size: 1rem; margin-bottom: 3px; }
         
-        .contact-section { padding: 100px 0; background: linear-gradient(135deg, #E8F5E9, #FFF8E1); }
-        .contact-wrapper { display: flex; gap: 60px; flex-wrap: wrap; }
+        .contact-section { padding: 80px 0; background: linear-gradient(135deg, #E8F5E9, #FFF8E1); }
+        .contact-wrapper { display: flex; gap: 50px; flex-wrap: wrap; }
         .contact-info, .contact-form { flex: 1; }
-        .contact-form { background: white; padding: 40px; border-radius: 30px; box-shadow: var(--shadow-lg); }
-        .form-group { margin-bottom: 25px; }
-        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: var(--green-dark); }
-        .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 14px 18px; border: 2px solid #e0e7e1; border-radius: 16px; font-family: 'Inter', sans-serif; transition: 0.3s; }
-        .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--orange); box-shadow: 0 0 0 3px rgba(255,111,0,0.1); }
+        .contact-form { background: white; padding: 35px; border-radius: 30px; box-shadow: var(--shadow-lg); }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 6px; font-weight: 600; color: var(--green-dark); }
+        .form-group input, .form-group textarea { width: 100%; padding: 12px 16px; border: 2px solid #e0e7e1; border-radius: 12px; font-family: 'Inter', sans-serif; }
+        .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--orange); }
         
-        .admin-panel { background: #FFF8E1; padding: 30px; border-radius: 30px; margin: 30px 0; }
-        .admin-tabs { display: flex; gap: 15px; margin-bottom: 30px; flex-wrap: wrap; }
-        .admin-tab { padding: 12px 25px; background: white; border: none; border-radius: 50px; cursor: pointer; font-weight: 600; transition: 0.3s; }
-        .admin-tab.active { background: var(--green-primary); color: white; }
-        .admin-section { display: none; }
-        .admin-section.active-section { display: block; animation: fadeIn 0.3s; }
-        .message-item { background: white; padding: 18px; border-radius: 20px; margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; box-shadow: var(--shadow-sm); }
+        footer { background: #0a2f1f; color: #ddd; padding: 50px 0 25px; }
+        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; margin-bottom: 40px; }
+        .footer-col h4 { color: var(--yellow-primary); margin-bottom: 18px; font-size: 1.1rem; }
+        .footer-col p, .footer-col button { color: #cbd5c0; background: none; border: none; cursor: pointer; display: block; margin-bottom: 10px; }
+        .social-icons a { display: inline-block; background: rgba(255,255,255,0.1); margin-right: 12px; padding: 10px 12px; border-radius: 50%; color: white; transition: 0.3s; }
+        .social-icons a:hover { background: var(--orange); }
+        .copyright { text-align: center; padding-top: 25px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; }
         
-        .login-box { background: white; border-radius: 30px; padding: 50px; margin: 80px auto; max-width: 500px; box-shadow: var(--shadow-xl); }
-        .alert { padding: 12px; border-radius: 12px; margin-bottom: 20px; display: none; }
-        .alert.success { background: #d4edda; color: #155724; display: block; }
-        .alert.error { background: #f8d7da; color: #721c24; display: block; }
-        .upload-area { border: 3px dashed var(--green-primary); border-radius: 24px; padding: 40px; text-align: center; cursor: pointer; transition: 0.3s; background: white; margin-bottom: 20px; }
-        .upload-area:hover { background: var(--green-light); border-color: var(--orange); }
+        .chat-widget { position: fixed; bottom: 25px; right: 25px; z-index: 1000; }
+        .chat-button { background: var(--orange-gradient); color: white; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 1.5rem; box-shadow: var(--shadow-lg); }
+        .chat-box { position: fixed; bottom: 90px; right: 25px; width: 320px; background: white; border-radius: 20px; display: none; flex-direction: column; overflow: hidden; }
+        .chat-box.active { display: flex; }
+        .chat-header { background: var(--orange-gradient); color: white; padding: 12px; display: flex; justify-content: space-between; }
+        .chat-messages { height: 280px; overflow-y: auto; padding: 12px; background: #f9f9f9; }
+        .chat-message.user { background: var(--orange); color: white; margin-left: auto; }
+        .chat-message.bot { background: var(--green-light); }
+        .chat-input-area { display: flex; padding: 10px; border-top: 1px solid #ddd; }
+        .chat-input-area input { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 25px; margin-right: 8px; }
         
         .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); justify-content: center; align-items: center; z-index: 2000; }
-        .modal-content { max-width: 80%; max-height: 80%; border-radius: 20px; }
-        
-        footer { background: #0a2f1f; color: #ddd; padding: 70px 0 30px; }
-        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 50px; margin-bottom: 50px; }
-        .footer-col h4 { color: var(--yellow-primary); margin-bottom: 20px; font-size: 1.2rem; }
-        .footer-col p, .footer-col button { color: #cbd5c0; background: none; border: none; cursor: pointer; display: block; margin-bottom: 12px; }
-        .social-icons a { display: inline-block; background: rgba(255,255,255,0.1); margin-right: 15px; padding: 12px 16px; border-radius: 50%; color: white; transition: 0.3s; }
-        .social-icons a:hover { background: var(--orange); transform: translateY(-3px); }
-        .copyright { text-align: center; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1); }
-        
-        .chat-widget { position: fixed; bottom: 30px; right: 30px; z-index: 1000; }
-        .chat-button { background: var(--orange-gradient); color: white; width: 65px; height: 65px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: var(--shadow-lg); border: none; font-size: 1.8rem; transition: 0.3s; }
-        .chat-button:hover { transform: scale(1.1); }
-        .chat-box { position: fixed; bottom: 105px; right: 30px; width: 370px; background: white; border-radius: 24px; display: none; flex-direction: column; overflow: hidden; box-shadow: var(--shadow-xl); }
-        .chat-box.active { display: flex; }
-        .chat-header { background: var(--green-gradient); color: white; padding: 18px; display: flex; justify-content: space-between; }
-        .chat-messages { height: 320px; overflow-y: auto; padding: 18px; background: #f9f9f9; }
-        .chat-message { margin-bottom: 12px; padding: 10px 16px; border-radius: 20px; max-width: 85%; font-size: 0.85rem; }
-        .chat-message.user { background: var(--orange); color: white; margin-left: auto; }
-        .chat-message.bot { background: var(--green-light); color: var(--green-dark); }
-        .chat-input-area { display: flex; padding: 15px; border-top: 1px solid #ddd; }
-        .chat-input-area input { flex: 1; padding: 12px; border: 1px solid #ddd; border-radius: 30px; margin-right: 12px; }
-        .chat-input-area button { background: var(--orange); color: white; border: none; border-radius: 30px; padding: 12px 20px; cursor: pointer; }
+        .modal-content { max-width: 80%; max-height: 80%; border-radius: 16px; }
         
         @media (max-width: 900px) {
             .menu-toggle { display: block; }
-            .nav-links { display: none; width: 100%; flex-direction: column; gap: 15px; padding: 20px 0; }
+            .nav-links { display: none; width: 100%; flex-direction: column; gap: 12px; padding: 15px 0; }
             .nav-links.active { display: flex; }
-            .slide-content h2 { font-size: 2rem; }
+            .slide-content h2 { font-size: 1.8rem; }
             .section-title { font-size: 1.8rem; }
             .hero-slider { height: 60vh; min-height: 450px; }
             .container { padding: 0 20px; }
@@ -194,8 +175,8 @@
 <header>
     <div class="container navbar">
         <div class="logo">
-            <h1 id="schoolName">🌟 St. Joseph's</h1>
-            <p id="schoolTagline">Practice Primary School</p>
+            <h1>🌟 St. Joseph's</h1>
+            <p>Practice Primary School</p>
         </div>
         <div class="menu-toggle" id="mobile-menu"><i class="fas fa-bars"></i></div>
         <ul class="nav-links" id="nav-links">
@@ -204,7 +185,6 @@
             <li><button class="nav-link-item" onclick="showPage('blog')">📰 Blog</button></li>
             <li><button class="nav-link-item" onclick="showPage('gallery')">🖼️ Gallery</button></li>
             <li><button class="nav-link-item" onclick="showPage('portal')">👪 Parent Portal</button></li>
-            <li><button class="nav-link-item" onclick="showPage('adminLogin')">🔐 Admin</button></li>
             <li><button class="nav-link-item" onclick="showPage('contact')">📞 Contact</button></li>
         </ul>
     </div>
@@ -215,7 +195,40 @@
     <div id="home-page" class="page active-page">
         <div class="hero-slider">
             <div class="swiper homeSwiper">
-                <div class="swiper-wrapper" id="homeSliderWrapper"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url('https://i.postimg.cc/9Qk28YBg/IMG-0264.jpg'); background-size: cover;">
+                        <div class="slide-content">
+                            <div class="slide-badge">✨ Welcome</div>
+                            <h2>St. Joseph's Practice Primary School</h2>
+                            <p>Obi Dan Obi, the excellency. Providing quality education since 2004.</p>
+                            <button class="btn btn-primary" onclick="showPage('about')">Learn More →</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('https://i.postimg.cc/Bvxxkbxq/IMG-E2709.jpg'); background-size: cover;">
+                        <div class="slide-content">
+                            <div class="slide-badge">✨ Our Campus</div>
+                            <h2>Beautiful Learning Environment</h2>
+                            <p>A Christ-centered school equipping pupils to be Christ honouring.</p>
+                            <button class="btn btn-primary" onclick="showPage('gallery')">View Gallery →</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('https://i.postimg.cc/GmfR7xjX/IMG-0377.jpg'); background-size: cover;">
+                        <div class="slide-content">
+                            <div class="slide-badge">✨ Excellence</div>
+                            <h2>Building Critical Thinkers</h2>
+                            <p>Through the pursuit of academic excellence.</p>
+                            <button class="btn btn-primary" onclick="showPage('about')">Read More →</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('https://i.postimg.cc/NjntJkxS/IMG-0272.jpg'); background-size: cover;">
+                        <div class="slide-content">
+                            <div class="slide-badge">✨ Our Students</div>
+                            <h2>Nurturing Young Minds</h2>
+                            <p>Developing moral, social and religious values.</p>
+                            <button class="btn btn-primary" onclick="showPage('contact')">Contact Us →</button>
+                        </div>
+                    </div>
+                </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -226,26 +239,26 @@
             <div class="container">
                 <div class="text-center" data-aos="fade-up">
                     <h2 class="section-title">Why Choose St. Joseph's?</h2>
-                    <p>Green for growth, Gold for excellence, White for purity of heart</p>
+                    <p>Obi Dan Obi, the excellency</p>
                 </div>
                 <div class="features-grid">
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="100" onclick="showPage('about')">
                         <i class="fas fa-leaf"></i>
-                        <h3>Holistic Growth</h3>
-                        <p>Academics, sports, arts, and spiritual formation.</p>
-                        <div style="margin-top: 15px; color: var(--orange);">Learn more →</div>
+                        <h3>Academic Excellence</h3>
+                        <p>Building critical thinkers through the pursuit of academic excellence.</p>
+                        <div style="margin-top: 12px; color: var(--orange);">Learn more →</div>
                     </div>
-                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200" onclick="showPage('gallery')">
-                        <i class="fas fa-chalkboard-user"></i>
-                        <h3>Modern Learning</h3>
-                        <p>Smart classrooms, STEM lab, computer center.</p>
-                        <div style="margin-top: 15px; color: var(--orange);">View facilities →</div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200" onclick="showPage('about')">
+                        <i class="fas fa-church"></i>
+                        <h3>Christ-Centered</h3>
+                        <p>A Christ-centered school equipping pupils to be Christ honouring.</p>
+                        <div style="margin-top: 12px; color: var(--orange);">Learn more →</div>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="300" onclick="showPage('contact')">
                         <i class="fas fa-heart"></i>
                         <h3>Values First</h3>
-                        <p>Rooted in Catholic tradition, building character.</p>
-                        <div style="margin-top: 15px; color: var(--orange);">Contact us →</div>
+                        <p>Developing moral, social and religious values.</p>
+                        <div style="margin-top: 12px; color: var(--orange);">Contact us →</div>
                     </div>
                 </div>
             </div>
@@ -254,10 +267,10 @@
         <section class="stats-section">
             <div class="container">
                 <div class="stats-grid">
-                    <div class="stat-item" data-aos="zoom-in"><h2 id="statStudents">1,250+</h2><p>Happy Students</p></div>
-                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="100"><h2 id="statTeachers">48+</h2><p>Dedicated Teachers</p></div>
-                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="200"><h2 id="statSatisfaction">98%</h2><p>Parent Satisfaction</p></div>
-                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="300"><h2 id="statYears">38</h2><p>Years of Excellence</p></div>
+                    <div class="stat-item" data-aos="zoom-in"><h2>735</h2><p>Happy Students</p></div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="100"><h2>25</h2><p>Dedicated Teachers</p></div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="200"><h2>95%</h2><p>Parent Satisfaction</p></div>
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="300"><h2>22</h2><p>Years of Excellence</p></div>
                 </div>
             </div>
         </section>
@@ -265,43 +278,45 @@
 
     <!-- ABOUT PAGE -->
     <div id="about-page" class="page">
-        <div class="container" style="padding: 80px 0;">
-            <div style="display: flex; gap: 60px; flex-wrap: wrap;">
+        <div class="container" style="padding: 60px 0;">
+            <div style="display: flex; gap: 50px; flex-wrap: wrap;">
                 <div style="flex: 1;" data-aos="fade-right">
                     <h2 class="section-title">Our Story</h2>
-                    <p id="storyText" style="line-height: 1.8;">St. Joseph's Practice Primary School was founded in 1985 by the Catholic Diocese. What began as two classrooms under a mango tree has grown into a modern school with 22 classrooms, science lab, computer center, and playground.</p>
-                    <h3 style="color: var(--green-dark); margin-top: 35px;">📌 Our Mission</h3>
-                    <p id="missionText">To nurture confident, compassionate learners who excel academically and live their values.</p>
+                    <p style="line-height: 1.7;">A great achievement in academic excellency. St. Joseph's Practice Primary School has been nurturing young minds since 2004, providing quality education rooted in Christian values.</p>
+                    <h3 style="color: var(--green-dark); margin-top: 30px;">📌 Our Mission</h3>
+                    <p>To improve and build a safer learning environment in order to address the need of individual child to attain full potentials in education and develop awareness of moral, social and religious values.</p>
                     <h3 style="color: var(--green-dark); margin-top: 25px;">👁️ Our Vision</h3>
-                    <p id="visionText">To be a beacon of holistic, affordable, and excellent primary education.</p>
+                    <p>To build a Christ-centered school to equip pupils to be Christ honouring, critical thinkers through the pursuit of academic excellence.</p>
                 </div>
                 <div style="flex: 1; text-align: center;" data-aos="fade-left">
-                    <i class="fas fa-tree" style="font-size: 8rem; color: var(--green-primary);"></i>
-                    <i class="fas fa-church" style="font-size: 8rem; color: var(--orange); margin-left: 30px;"></i>
+                    <i class="fas fa-tree" style="font-size: 7rem; color: var(--green-primary);"></i>
+                    <i class="fas fa-church" style="font-size: 7rem; color: var(--orange); margin-left: 20px;"></i>
                 </div>
             </div>
             
-            <div style="background: #FFF8E1; padding: 50px; border-radius: 30px; margin: 60px 0;" data-aos="fade-up">
+            <div style="background: #FFF8E1; padding: 40px; border-radius: 30px; margin: 50px 0;" data-aos="fade-up">
                 <h2 class="section-title">📝 Admissions Process</h2>
-                <div class="features-grid" style="margin-top: 40px;">
-                    <div class="feature-card" style="background: white;"><span style="background: var(--orange-gradient); display: inline-block; width: 50px; height: 50px; border-radius: 50%; line-height: 50px; margin-bottom: 12px; color: white;">1</span><h3>Inquiry</h3><p id="step1Text">Fill online form or call office</p></div>
-                    <div class="feature-card" style="background: white;"><span style="background: var(--orange-gradient); display: inline-block; width: 50px; height: 50px; border-radius: 50%; line-height: 50px; margin-bottom: 12px; color: white;">2</span><h3>School Tour</h3><p id="step2Text">Visit our green campus</p></div>
-                    <div class="feature-card" style="background: white;"><span style="background: var(--orange-gradient); display: inline-block; width: 50px; height: 50px; border-radius: 50%; line-height: 50px; margin-bottom: 12px; color: white;">3</span><h3>Assessment</h3><p id="step3Text">Age-appropriate readiness check</p></div>
-                    <div class="feature-card" style="background: white;"><span style="background: var(--orange-gradient); display: inline-block; width: 50px; height: 50px; border-radius: 50%; line-height: 50px; margin-bottom: 12px; color: white;">4</span><h3>Enrollment</h3><p id="step4Text">Submit documents and pay fees</p></div>
+                <div class="features-grid" style="margin-top: 35px; gap: 25px;">
+                    <div class="feature-card" style="background: white;"><span style="background: var(--orange-gradient); display: inline-block; width: 45px; height: 45px; border-radius: 50%; line-height: 45px; margin-bottom: 10px; color: white;">1</span><h3>Inquiry</h3><p>Fill online form or call office</p></div>
+                    <div class="feature-card" style="background: white;"><span style="background: var(--orange-gradient); display: inline-block; width: 45px; height: 45px; border-radius: 50%; line-height: 45px; margin-bottom: 10px; color: white;">2</span><h3>School Tour</h3><p>Visit our green campus</p></div>
+                    <div class="feature-card" style="background: white;"><span style="background: var(--orange-gradient); display: inline-block; width: 45px; height: 45px; border-radius: 50%; line-height: 45px; margin-bottom: 10px; color: white;">3</span><h3>Assessment</h3><p>Age-appropriate readiness check</p></div>
+                    <div class="feature-card" style="background: white;"><span style="background: var(--orange-gradient); display: inline-block; width: 45px; height: 45px; border-radius: 50%; line-height: 45px; margin-bottom: 10px; color: white;">4</span><h3>Enrollment</h3><p>Submit documents and pay fees</p></div>
                 </div>
             </div>
 
-            <div style="padding: 30px 0;" data-aos="fade-up">
+            <div style="padding: 20px 0;" data-aos="fade-up">
                 <h2 class="section-title">💰 Fee Structure (2025)</h2>
-                <table style="width:100%; border-collapse: collapse; margin-top: 30px; border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-md);">
-                    <thead><tr><th style="background: var(--green-primary); color: white; padding: 18px;">Grade</th><th style="background: var(--green-primary); color: white; padding: 18px;">Termly Fees (GHS)</th></tr></thead>
+                <table style="width:100%; border-collapse: collapse; margin-top: 25px; border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-md);">
+                    <thead><tr><th style="background: var(--green-primary); color: white; padding: 15px;">Item</th><th style="background: var(--green-primary); color: white; padding: 15px;">Amount (GHS)</th></tr></thead>
                     <tbody>
-                        <tr><td style="padding: 15px; border-bottom: 1px solid #ddd;">Kindergarten</td><td style="padding: 15px; border-bottom: 1px solid #ddd;" id="feeAmount1">1,200</td> </tr>
-                        <tr><td style="padding: 15px; border-bottom: 1px solid #ddd;">Lower Primary (1-3)</td><td style="padding: 15px; border-bottom: 1px solid #ddd;" id="feeAmount2">1,400</td> </tr>
-                        <tr><td style="padding: 15px;">Upper Primary (4-6)</td><td id="feeAmount3">1,600</td> </tr>
+                        <tr><td style="padding: 12px; border-bottom: 1px solid #ddd;">Kindergarten</td><td style="padding: 12px; border-bottom: 1px solid #ddd;">Coming Soon</td></tr>
+                        <tr><td style="padding: 12px; border-bottom: 1px solid #ddd;">Lower Primary (1-3)</td><td style="padding: 12px; border-bottom: 1px solid #ddd;">Coming Soon</td></tr>
+                        <tr><td style="padding: 12px; border-bottom: 1px solid #ddd;">Upper Primary (4-6)</td><td style="padding: 12px; border-bottom: 1px solid #ddd;">Coming Soon</td></tr>
+                        <tr><td style="padding: 12px; border-bottom: 1px solid #ddd;">ICT Lab Fee</td><td style="padding: 12px; border-bottom: 1px solid #ddd;">Coming Soon</td></tr>
+                        <tr><td style="padding: 12px;">Project Fee</td><td>Coming Soon</td></tr>
                     </tbody>
                 </table>
-                <p style="margin-top: 25px;" id="feeNote"><i class="fas fa-hand-holding-heart" style="color: var(--orange);"></i> Scholarships available for high-achieving students. Sibling discount: 10% for 2nd child.</p>
+                <p style="margin-top: 20px;"><i class="fas fa-hand-holding-heart" style="color: var(--orange);"></i> ICT lab fee and Project fee will be announced soon. Contact school office for more information.</p>
             </div>
         </div>
     </div>
@@ -309,224 +324,125 @@
     <!-- BLOG PAGE -->
     <div id="blog-page" class="page">
         <div class="container blog-section" style="padding-top: 0;">
-            <div id="blogPostsContainer" class="blog-grid"></div>
+            <div class="blog-grid">
+                <div class="blog-card" onclick="openBlogModal(1)">
+                    <div class="blog-media"><i class="fas fa-newspaper"></i><span class="blog-date">📅 April 18, 2025</span></div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Welcome to St. Joseph's Practice Primary School</h3>
+                        <p class="blog-excerpt">We are pleased to announce that our school is dedicated to providing quality education rooted in Christian values. Obi Dan Obi, the excellency...</p>
+                        <button class="read-more-btn">Read More →</button>
+                    </div>
+                </div>
+                <div class="blog-card" onclick="openBlogModal(2)">
+                    <div class="blog-media"><i class="fas fa-newspaper"></i><span class="blog-date">📅 April 15, 2025</span></div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Academic Excellence at St. Joseph's</h3>
+                        <p class="blog-excerpt">Our students continue to excel in their studies. We are proud of their achievements and dedication to learning. Building critical thinkers...</p>
+                        <button class="read-more-btn">Read More →</button>
+                    </div>
+                </div>
+                <div class="blog-card" onclick="openBlogModal(3)">
+                    <div class="blog-media"><i class="fas fa-newspaper"></i><span class="blog-date">📅 April 10, 2025</span></div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">School Events and Activities</h3>
+                        <p class="blog-excerpt">Check out the latest activities from our school community. Developing moral, social and religious values...</p>
+                        <button class="read-more-btn">Read More →</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- Blog Modal -->
     <div id="blogModal" class="modal" onclick="if(event.target===this) closeBlogModal()">
-        <div class="modal-content" style="background: white; max-width: 600px; padding: 30px; border-radius: 24px;">
+        <div class="modal-content" style="background: white; max-width: 550px; padding: 25px; border-radius: 20px;">
             <span onclick="closeBlogModal()" style="float: right; font-size: 28px; cursor: pointer;">&times;</span>
-            <div id="modalMedia" style="margin-bottom: 20px;"></div>
-            <h2 id="modalTitle" style="color: var(--green-dark); margin-bottom: 15px;"></h2>
-            <div class="modal-date" id="modalDate" style="color: var(--orange); margin-bottom: 20px;"></div>
-            <p id="modalContent" style="line-height: 1.8;"></p>
+            <h2 id="modalTitle" style="color: var(--green-dark); margin-bottom: 12px;"></h2>
+            <div class="modal-date" id="modalDate" style="color: var(--orange); margin-bottom: 15px;"></div>
+            <p id="modalContent" style="line-height: 1.7;"></p>
         </div>
     </div>
 
     <!-- GALLERY PAGE -->
     <div id="gallery-page" class="page">
         <div class="container gallery-section" style="padding-top: 0;">
-            <div id="galleryContainer" class="gallery-grid"></div>
+            <div class="gallery-grid">
+                <div class="gallery-item" style="background-image: url('https://i.postimg.cc/JzF865QK/IMG-0235.jpg');" onclick="openImageModal('https://i.postimg.cc/JzF865QK/IMG-0235.jpg')"><div class="gallery-overlay"><h3>School Event</h3></div></div>
+                <div class="gallery-item" style="background-image: url('https://i.postimg.cc/bw5PC9T8/IMG-0378.jpg');" onclick="openImageModal('https://i.postimg.cc/bw5PC9T8/IMG-0378.jpg')"><div class="gallery-overlay"><h3>Classroom Activity</h3></div></div>
+                <div class="gallery-item" style="background-image: url('https://i.postimg.cc/QdzD4JqQ/IMG-0453.jpg');" onclick="openImageModal('https://i.postimg.cc/QdzD4JqQ/IMG-0453.jpg')"><div class="gallery-overlay"><h3>Students at Work</h3></div></div>
+                <div class="gallery-item" style="background-image: url('https://i.postimg.cc/TwJY4W1h/IMG-1980.jpg');" onclick="openImageModal('https://i.postimg.cc/TwJY4W1h/IMG-1980.jpg')"><div class="gallery-overlay"><h3>School Ceremony</h3></div></div>
+                <div class="gallery-item" style="background-image: url('https://i.postimg.cc/c4rtrX6D/IMG-1885.jpg');" onclick="openImageModal('https://i.postimg.cc/c4rtrX6D/IMG-1885.jpg')"><div class="gallery-overlay"><h3>Happy Students</h3></div></div>
+            </div>
         </div>
         <div id="imageModal" class="modal" onclick="closeImageModal()">
-            <span style="position:absolute; top:25px; right:40px; color:white; font-size:45px; cursor:pointer;">&times;</span>
+            <span style="position:absolute; top:20px; right:40px; color:white; font-size:40px; cursor:pointer;">&times;</span>
             <img class="modal-content" id="modalImage">
         </div>
     </div>
 
     <!-- PARENT PORTAL -->
     <div id="portal-page" class="page">
-        <div id="portalLoginSection" class="login-box">
+        <div class="login-box">
             <h2 style="text-align:center; color: var(--green-dark);"><i class="fas fa-lock"></i> Parent Login</h2>
-            <div id="portalLoginAlert" class="alert"></div>
             <form id="portalLoginForm">
                 <div class="form-group"><label>Student ID</label><input type="text" id="portalUsername" placeholder="e.g., STJ2024001" required></div>
                 <div class="form-group"><label>Password</label><input type="password" id="portalPassword" placeholder="Enter password" required></div>
                 <button type="submit" class="btn btn-primary" style="width:100%">Login to Dashboard</button>
             </form>
-            <p class="text-center" style="margin-top: 25px; font-size:0.85rem;">Demo: Any ID + any password works</p>
+            <p class="text-center" style="margin-top: 20px; font-size:0.8rem;">Demo: Any ID + any password works</p>
         </div>
-        <div id="portalDashboard" class="dashboard" style="background: white; border-radius: 30px; padding: 45px; margin: 60px auto; max-width: 1100px; box-shadow: var(--shadow-xl); display: none;">
-            <div style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 30px;">
-                <h2>👋 Welcome, Parent of <span id="studentName">Michael Ansah</span></h2>
+        <div id="portalDashboard" style="background: white; border-radius: 30px; padding: 35px; margin: 50px auto; max-width: 900px; box-shadow: var(--shadow-xl); display: none;">
+            <div style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 25px;">
+                <h2>👋 Welcome, Parent</h2>
                 <button onclick="portalLogout()" class="btn btn-danger">Logout</button>
             </div>
             <div class="stats-grid">
-                <div class="stat-card" style="background: #E8F5E9; padding: 25px; border-radius: 24px; text-align: center;"><i class="fas fa-calendar-check" style="font-size: 2rem; color: var(--orange);"></i><h3>Attendance</h3><p id="attendance" style="font-size: 1.8rem; font-weight: 700;">92%</p></div>
-                <div class="stat-card" style="background: #E8F5E9; padding: 25px; border-radius: 24px; text-align: center;"><i class="fas fa-chart-line" style="font-size: 2rem; color: var(--orange);"></i><h3>Avg Grade</h3><p id="avgGrade" style="font-size: 1.8rem; font-weight: 700;">78%</p></div>
-                <div class="stat-card" style="background: #E8F5E9; padding: 25px; border-radius: 24px; text-align: center;"><i class="fas fa-credit-card" style="font-size: 2rem; color: var(--orange);"></i><h3>Fee Balance</h3><p id="feeBalance" style="font-size: 1.5rem; font-weight: 700;">GHS 450</p></div>
+                <div style="background: #E8F5E9; padding: 20px; border-radius: 20px; text-align: center;"><i class="fas fa-calendar-check" style="font-size: 1.8rem; color: var(--orange);"></i><h3>Attendance</h3><p style="font-size: 1.5rem; font-weight: 700;">92%</p></div>
+                <div style="background: #E8F5E9; padding: 20px; border-radius: 20px; text-align: center;"><i class="fas fa-chart-line" style="font-size: 1.8rem; color: var(--orange);"></i><h3>Avg Grade</h3><p style="font-size: 1.5rem; font-weight: 700;">78%</p></div>
+                <div style="background: #E8F5E9; padding: 20px; border-radius: 20px; text-align: center;"><i class="fas fa-credit-card" style="font-size: 1.8rem; color: var(--orange);"></i><h3>Fee Balance</h3><p style="font-size: 1.3rem; font-weight: 700;">GHS 450</p></div>
             </div>
-            <h3 style="margin: 30px 0 15px;">📊 Recent Grades</h3>
-            <table style="width:100%; border-collapse: collapse; border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-sm);">
-                <thead><tr><th style="background: var(--green-primary); color: white; padding: 12px;">Subject</th><th style="background: var(--green-primary); color: white; padding: 12px;">Score</th><th style="background: var(--green-primary); color: white; padding: 12px;">Grade</th></tr></thead>
-                <tbody>
-                    <tr><td style="padding: 12px; border-bottom:1px solid #ddd;">Mathematics</td><td style="padding: 12px; border-bottom:1px solid #ddd;">82%</td><td style="padding: 12px; border-bottom:1px solid #ddd;">B+</td></tr>
-                    <tr><td style="padding: 12px; border-bottom:1px solid #ddd;">English</td><td style="padding: 12px; border-bottom:1px solid #ddd;">88%</td><td style="padding: 12px; border-bottom:1px solid #ddd;">A-</td></tr>
-                    <tr><td style="padding: 12px;">Science</td><td style="padding: 12px;">75%</td><td style="padding: 12px;">B</td></tr>
+            <h3>📊 Recent Grades</h3>
+            <table style="width:100%; border-collapse: collapse; border-radius: 12px; overflow: hidden;">
+                <thead><tr><th style="background: var(--green-primary); color: white; padding: 10px;">Subject</th><th style="background: var(--green-primary); color: white; padding: 10px;">Score</th><th style="background: var(--green-primary); color: white; padding: 10px;">Grade</th></tr></thead>
+                <tbody><tr><td style="padding: 10px;">Mathematics</td><td style="padding: 10px;">82%</td><td style="padding: 10px;">B+</td></tr>
+                <tr><td style="padding: 10px;">English</td><td style="padding: 10px;">88%</td><td style="padding: 10px;">A-</td></tr>
+                <tr><td style="padding: 10px;">Science</td><td style="padding: 10px;">75%</td><td style="padding: 10px;">B</td></tr>
                 </tbody>
             </table>
-            <h3 style="margin: 30px 0 15px;">💬 Message Teacher</h3>
-            <textarea id="teacherMessage" rows="3" style="width:100%; padding: 15px; border-radius: 20px; border: 2px solid #e0e7e1;"></textarea>
-            <button onclick="sendTeacherMessage()" class="btn btn-primary" style="margin-top: 15px;">Send Message</button>
-            <p id="messageResponse" style="margin-top: 15px; color: green;"></p>
-        </div>
-    </div>
-
-    <!-- ADMIN LOGIN -->
-    <div id="adminLogin-page" class="page">
-        <div class="login-box">
-            <h2 style="text-align:center; color: var(--green-dark);"><i class="fas fa-shield-alt"></i> Admin Login</h2>
-            <div id="adminLoginAlert" class="alert"></div>
-            <form id="adminLoginForm">
-                <div class="form-group"><label>Username</label><input type="text" id="adminUsername" required></div>
-                <div class="form-group"><label>Password</label><input type="password" id="adminPassword" required></div>
-                <button type="submit" class="btn btn-primary" style="width:100%">Login to Admin</button>
-            </form>
-        </div>
-    </div>
-
-    <!-- ADMIN DASHBOARD -->
-    <div id="admin-page" class="page">
-        <section style="background: linear-gradient(135deg, #E8F5E9, #FFF8E1); padding: 50px 0;">
-            <div class="container text-center">
-                <h1 style="color: var(--green-dark);">⚙️ Admin Dashboard</h1>
-                <button onclick="adminLogout()" class="btn btn-danger" style="margin-top: 15px;">Logout</button>
-            </div>
-        </section>
-        <div class="container">
-            <div class="admin-panel">
-                <div class="admin-tabs">
-                    <button class="admin-tab" onclick="switchAdminTab('messages')">📧 Messages</button>
-                    <button class="admin-tab" onclick="switchAdminTab('blog')">📝 Blog Posts</button>
-                    <button class="admin-tab" onclick="switchAdminTab('gallery')">🖼️ Gallery</button>
-                    <button class="admin-tab" onclick="switchAdminTab('slides')">🎬 Home Slides</button>
-                    <button class="admin-tab active" onclick="switchAdminTab('settings')">⚙️ Settings</button>
-                </div>
-                
-                <div id="adminMessages" class="admin-section"><h3>Contact Messages</h3><div id="messagesList"></div></div>
-                
-                <div id="adminBlog" class="admin-section">
-                    <h3>📝 Add Blog Post</h3>
-                    <div class="upload-area" onclick="document.getElementById('blogMediaInput').click()">
-                        <i class="fas fa-cloud-upload-alt" style="font-size: 3rem; color: var(--green-primary);"></i>
-                        <p>Click to upload image or video</p>
-                        <small>Supports: JPG, PNG, GIF, MP4 (Max 10MB)</small>
-                    </div>
-                    <input type="file" id="blogMediaInput" accept="image/*,video/mp4" style="display:none">
-                    <div class="form-group"><label>Title</label><input type="text" id="blogTitle" style="width:100%"></div>
-                    <div class="form-group"><label>Content</label><textarea id="blogContent" rows="4" style="width:100%"></textarea></div>
-                    <button onclick="addBlogPost()" class="btn btn-primary">Publish Post</button>
-                    <h3 style="margin-top: 35px;">Existing Posts</h3>
-                    <div id="blogListAdmin"></div>
-                </div>
-                
-                <div id="adminGallery" class="admin-section">
-                    <h3>🖼️ Upload Images to Gallery</h3>
-                    <div class="upload-area" onclick="document.getElementById('galleryFileInput').click()">
-                        <i class="fas fa-cloud-upload-alt" style="font-size: 3rem; color: var(--green-primary);"></i>
-                        <p>Click to select images from your computer/phone</p>
-                        <small>Supports: JPG, PNG, GIF (Max 10MB each)</small>
-                    </div>
-                    <input type="file" id="galleryFileInput" accept="image/*" style="display:none" multiple>
-                    <div id="galleryProgress" style="display:none; margin:10px 0;"><progress id="galleryProgressBar" value="0" max="100" style="width:100%"></progress><p id="galleryProgressText"></p></div>
-                    <h3 style="margin-top: 40px;">Current Gallery</h3>
-                    <div id="galleryListAdmin"></div>
-                </div>
-                
-                <!-- HOME SLIDES MANAGEMENT - UNLIMITED UPLOADS -->
-                <div id="adminSlides" class="admin-section">
-                    <h3>🎬 Homepage Slideshow Management (Unlimited Slides)</h3>
-                    <div id="slidesListAdmin"></div>
-                    <div style="margin-top: 30px; background: white; padding: 25px; border-radius: 20px;">
-                        <h4>➕ Add New Slide to Homepage</h4>
-                        <div class="form-group"><label>Slide Title</label><input type="text" id="newSlideTitle" class="form-control" placeholder="e.g., Welcome to Our School"></div>
-                        <div class="form-group"><label>Slide Description</label><textarea id="newSlideDesc" rows="2" class="form-control" placeholder="Brief description of the slide"></textarea></div>
-                        <div class="upload-area" style="padding: 20px;" onclick="document.getElementById('slideImageInput').click()">
-                            <i class="fas fa-image" style="font-size: 2rem;"></i> Click to upload slide image
-                        </div>
-                        <input type="file" id="slideImageInput" accept="image/*" style="display:none">
-                        <div class="form-group"><label>Button Text</label><input type="text" id="newSlideBtnText" placeholder="Learn More" class="form-control"></div>
-                        <div class="form-group"><label>Button Link</label>
-                            <select id="newSlideBtnLink" class="form-control">
-                                <option value="about">About Page</option>
-                                <option value="gallery">Gallery Page</option>
-                                <option value="contact">Contact Page</option>
-                                <option value="portal">Parent Portal</option>
-                            </select>
-                        </div>
-                        <button onclick="addHomeSlide()" class="btn btn-primary">➕ Add Slide to Homepage</button>
-                    </div>
-                </div>
-                
-                <div id="adminSettings" class="admin-section active-section">
-                    <h3>🏫 Edit School Information</h3>
-                    <div class="settings-box" style="background:white; padding: 30px; border-radius: 24px;">
-                        <div class="form-group"><label>School Name</label><input type="text" id="editSchoolName"></div>
-                        <div class="form-group"><label>School Tagline</label><input type="text" id="editSchoolTagline"></div>
-                        <div class="form-group"><label>Address</label><input type="text" id="editAddress"></div>
-                        <div class="form-group"><label>Phone</label><input type="text" id="editPhone"></div>
-                        <div class="form-group"><label>Email</label><input type="email" id="editEmail"></div>
-                        <div class="form-group"><label>Working Hours</label><input type="text" id="editHours"></div>
-                        <div class="form-group"><label>Students Count</label><input type="text" id="editStatStudents"></div>
-                        <div class="form-group"><label>Teachers Count</label><input type="text" id="editStatTeachers"></div>
-                        <div class="form-group"><label>Satisfaction %</label><input type="text" id="editStatSatisfaction"></div>
-                        <div class="form-group"><label>Years Count</label><input type="text" id="editStatYears"></div>
-                        <div class="form-group"><label>Story Text</label><textarea id="editStoryText" rows="3"></textarea></div>
-                        <div class="form-group"><label>Mission</label><textarea id="editMissionText" rows="2"></textarea></div>
-                        <div class="form-group"><label>Vision</label><textarea id="editVisionText" rows="2"></textarea></div>
-                        <div class="form-group"><label>Kindergarten Fee</label><input type="text" id="editFee1"></div>
-                        <div class="form-group"><label>Lower Primary Fee</label><input type="text" id="editFee2"></div>
-                        <div class="form-group"><label>Upper Primary Fee</label><input type="text" id="editFee3"></div>
-                        <div class="form-group"><label>Fee Note</label><textarea id="editFeeNote" rows="1"></textarea></div>
-                        <div class="form-group"><label>Admissions Step 1</label><input type="text" id="editStep1Text"></div>
-                        <div class="form-group"><label>Admissions Step 2</label><input type="text" id="editStep2Text"></div>
-                        <div class="form-group"><label>Admissions Step 3</label><input type="text" id="editStep3Text"></div>
-                        <div class="form-group"><label>Admissions Step 4</label><input type="text" id="editStep4Text"></div>
-                        <button onclick="saveAllSettings()" class="btn btn-success">💾 SAVE ALL CHANGES</button>
-                    </div>
-                    
-                    <h3>🔐 Admin Credentials</h3>
-                    <div class="settings-box" style="background:white; padding: 30px; border-radius: 24px; margin-top: 30px;">
-                        <div id="settingsAlert" class="alert"></div>
-                        <div class="form-group"><label>New Username</label><input type="text" id="newUsername"></div>
-                        <div class="form-group"><label>Current Password</label><input type="password" id="currentPassword"></div>
-                        <div class="form-group"><label>New Password</label><input type="password" id="newPassword" placeholder="Min 6 characters"></div>
-                        <div class="form-group"><label>Confirm Password</label><input type="password" id="confirmPassword"></div>
-                        <button onclick="updateAdminCredentials()" class="btn btn-success">Update Credentials</button>
-                    </div>
-                </div>
-            </div>
+            <h3 style="margin: 25px 0 12px;">💬 Message Teacher</h3>
+            <textarea id="teacherMessage" rows="3" style="width:100%; padding: 12px; border-radius: 16px;"></textarea>
+            <button onclick="sendTeacherMessage()" class="btn btn-primary" style="margin-top: 12px;">Send</button>
+            <p id="messageResponse" style="margin-top: 12px; color: green;"></p>
         </div>
     </div>
 
     <!-- CONTACT PAGE -->
     <div id="contact-page" class="page">
-        <section style="background: linear-gradient(135deg, #E8F5E9, #FFF8E1); padding: 80px 0;">
+        <section style="background: linear-gradient(135deg, #E8F5E9, #FFF8E1); padding: 60px 0;">
             <div class="container text-center">
-                <h1 style="font-size: 3.5rem; color: var(--green-dark);">📞 Contact Us</h1>
-                <p style="font-size: 1.2rem; margin-top: 15px;">We'd love to hear from you</p>
+                <h1 style="font-size: 2.8rem; color: var(--green-dark);">📞 Contact Us</h1>
+                <p>We'd love to hear from you</p>
             </div>
         </section>
-        <div class="container" style="padding: 60px 0;">
+        <div class="container" style="padding: 50px 0;">
             <div class="contact-wrapper">
-                <div class="contact-info" data-aos="fade-right">
-                    <h3 style="font-size: 1.8rem; margin-bottom: 25px;">📍 Contact Information</h3>
-                    <p style="margin: 15px 0;"><i class="fas fa-map-marker-alt" style="color: var(--orange); width: 30px;"></i> <span id="displayAddress">123 Peace Avenue, Kumasi, Ghana</span></p>
-                    <p style="margin: 15px 0;"><i class="fas fa-phone" style="color: var(--orange); width: 30px;"></i> <span id="displayPhone">+233 20 123 4567</span></p>
-                    <p style="margin: 15px 0;"><i class="fas fa-envelope" style="color: var(--orange); width: 30px;"></i> <span id="displayEmail">info@stjosephspractice.edu</span></p>
-                    <p style="margin: 15px 0;"><i class="fas fa-clock" style="color: var(--orange); width: 30px;"></i> <span id="displayHours">Mon-Fri: 7:30 AM – 3:30 PM</span></p>
-                    <div style="margin-top: 40px;">
+                <div class="contact-info">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 20px;">📍 Contact Information</h3>
+                    <p style="margin: 12px 0;"><i class="fas fa-map-marker-alt" style="color: var(--orange); width: 25px;"></i> P. O. Box 15, Bechem</p>
+                    <p style="margin: 12px 0;"><i class="fas fa-phone" style="color: var(--orange); width: 25px;"></i> 0243848808, 0547562570</p>
+                    <p style="margin: 12px 0;"><i class="fas fa-envelope" style="color: var(--orange); width: 25px;"></i> stjosephspractice@gmail.com</p>
+                    <p style="margin: 12px 0;"><i class="fas fa-clock" style="color: var(--orange); width: 25px;"></i> 7:00am - 2:30pm</p>
+                    <div style="margin-top: 30px;">
                         <h3>📱 Follow Us</h3>
-                        <div class="social-icons" style="margin-top: 20px;">
+                        <div class="social-icons" style="margin-top: 15px;">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
                             <a href="#"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="contact-form" data-aos="fade-left">
-                    <h3 style="font-size: 1.8rem; margin-bottom: 25px;">✉️ Send us a Message</h3>
+                <div class="contact-form">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 20px;">✉️ Send us a Message</h3>
                     <div id="contactFormAlert" class="alert"></div>
                     <form id="mainContactForm">
                         <div class="form-group"><label>Full Name *</label><input type="text" id="contactName" required></div>
@@ -546,9 +462,10 @@
         <div class="footer-grid">
             <div class="footer-col">
                 <h4>🌟 St. Joseph's</h4>
-                <p id="footerAddress">123 Peace Avenue, Kumasi</p>
-                <p id="footerPhone">+233 20 123 4567</p>
-                <p id="footerEmail">info@stjosephspractice.edu</p>
+                <p>P. O. Box 15, Bechem</p>
+                <p>0243848808, 0547562570</p>
+                <p>stjosephspractice@gmail.com</p>
+                <p><strong>Headmaster:</strong> King Cyrus (The Visionary)</p>
             </div>
             <div class="footer-col">
                 <h4>Quick Links</h4>
@@ -559,353 +476,45 @@
             </div>
             <div class="footer-col">
                 <h4>Working Hours</h4>
-                <p>Monday - Friday: 7:30AM - 3:30PM</p>
+                <p>Monday - Friday: 7:00am - 2:30pm</p>
                 <p>Saturday: Closed</p>
-                <p>Sunday: Chapel Service 8:00AM</p>
+                <p>Sunday: Chapel Service</p>
             </div>
         </div>
         <div class="copyright">
-            <p>© 2025 St. Joseph's Practice Primary School – Green. Gold. Growing together.</p>
+            <p>© 2025 St. Joseph's Practice Primary School – Obi Dan Obi, the excellency</p>
         </div>
     </div>
 </footer>
 
 <!-- Live Chat -->
 <div class="chat-widget">
-    <div class="chat-button" onclick="toggleChat()">
-        <i class="fas fa-comment-dots"></i>
-    </div>
+    <div class="chat-button" onclick="toggleChat()"><i class="fas fa-comment-dots"></i></div>
     <div class="chat-box" id="chatBox">
-        <div class="chat-header">
-            <span><i class="fas fa-headset"></i> St. Joseph's Support</span>
-            <span onclick="toggleChat()" style="cursor: pointer;">&times;</span>
-        </div>
-        <div class="chat-messages" id="chatMessages">
-            <div class="chat-message bot">👋 Hello! Welcome to St. Joseph's. How can we help you today?</div>
-        </div>
-        <div class="chat-input-area">
-            <input type="text" id="chatInput" placeholder="Type your message..." onkeypress="if(event.key==='Enter') sendChatMessage()">
-            <button onclick="sendChatMessage()">Send</button>
-        </div>
+        <div class="chat-header"><span>School Support</span><span onclick="toggleChat()">&times;</span></div>
+        <div class="chat-messages" id="chatMessages"><div class="chat-message bot">👋 Hello! Welcome to St. Joseph's. How can we help?</div></div>
+        <div class="chat-input-area"><input type="text" id="chatInput" placeholder="Type message..."><button onclick="sendChatMessage()">Send</button></div>
     </div>
 </div>
 
 <script>
-    // ============ DATA STORAGE ============
-    // Homepage Slides
-    let homeSlides = JSON.parse(localStorage.getItem('homeSlides')) || [
-        { id: 1, title: "Nurturing Minds, Building Character", description: "Providing quality Catholic education since 1985. Where every child discovers their God-given potential.", image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022", btnText: "Enroll Now", btnLink: "about" },
-        { id: 2, title: "Modern Facilities, Bright Future", description: "Smart classrooms, computer lab, science laboratory, and a vibrant playground.", image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070", btnText: "View Gallery", btnLink: "gallery" },
-        { id: 3, title: "Faith, Excellence, Community", description: "Rooted in Catholic values, welcoming all faiths with respect and love.", image: "https://images.unsplash.com/photo-1509059852496-f3822ae057bf?q=80&w=2070", btnText: "Contact Us", btnLink: "contact" }
-    ];
+    // ============ NO DATABASE - ALL CONTENT IS HARDCODED ============
+    // This version works immediately without any database setup
     
-    // Blog Posts
-    let blogPosts = JSON.parse(localStorage.getItem('blogPosts')) || [
-        { id: 1, title: "📢 School Reopening Date Announced", content: "We are pleased to announce that school will reopen for the second term on April 11, 2025. All students must report by 7:30 AM in full school uniform. Parents are invited to the opening mass at 7:00 AM.", date: "March 15, 2025", media: null },
-        { id: 2, title: "🏆 Annual Inter-House Sports Day", content: "Get ready for the most exciting event of the year! Our Annual Inter-House Sports Day will take place on April 5, 2025 at the school field. Events include 100m race, relay, sack race, tug of war. Parents are warmly invited to cheer for their children.", date: "March 10, 2025", media: null },
-        { id: 3, title: "💻 New Computer Lab Inaugurated", content: "We are thrilled to announce the inauguration of our brand new 30-seat computer lab, thanks to the generous support of our alumni association. The lab features modern computers with high-speed internet, allowing students to learn coding, digital literacy, and research skills.", date: "March 5, 2025", media: null }
-    ];
-    
-    // Gallery Items
-    let galleryItems = JSON.parse(localStorage.getItem('galleryItems')) || [];
-    
-    // Contact Messages
-    let contactMessages = JSON.parse(localStorage.getItem('contactMessages')) || [];
-    
-    // Admin Credentials
-    let ADMIN_USERNAME = localStorage.getItem('adminUsername') || "admin";
-    let ADMIN_PASSWORD = localStorage.getItem('adminPassword') || "StJoseph2025!";
-    let isAdminLoggedIn = sessionStorage.getItem('adminLoggedIn') === 'true';
-    
-    // ============ HOMEPAGE SLIDER FUNCTIONS ============
-    let homeSwiper;
-    
-    function loadHomeSlides() {
-        const container = document.getElementById('homeSliderWrapper');
-        if (!container) return;
-        
-        if (homeSlides.length === 0) {
-            container.innerHTML = '<div class="swiper-slide"><div class="slide-content"><h2>Welcome to St. Joseph\'s</h2><p>Add slides from admin dashboard</p></div></div>';
-        } else {
-            container.innerHTML = homeSlides.map(s => `
-                <div class="swiper-slide" style="background-image: url('${s.image}'); background-size: cover;">
-                    <div class="slide-content">
-                        <div class="slide-badge">✨ Featured</div>
-                        <h2>${escapeHtml(s.title)}</h2>
-                        <p>${escapeHtml(s.description)}</p>
-                        <button class="btn btn-primary" onclick="showPage('${s.btnLink}')">${escapeHtml(s.btnText)} →</button>
-                    </div>
-                </div>
-            `).join('');
-        }
-        
-        if (homeSwiper) homeSwiper.destroy();
-        homeSwiper = new Swiper('.homeSwiper', { loop: true, autoplay: { delay: 5000 }, pagination: { el: '.swiper-pagination', clickable: true }, navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }, effect: 'fade' });
-    }
-    
-    function loadSlidesForAdmin() {
-        const container = document.getElementById('slidesListAdmin');
-        if (!container) return;
-        
-        if (homeSlides.length === 0) {
-            container.innerHTML = '<p>No slides yet. Add your first slide above.</p>';
-            return;
-        }
-        
-        container.innerHTML = homeSlides.map(s => `
-            <div class="message-item">
-                <div><strong>${escapeHtml(s.title)}</strong><br><small>${escapeHtml(s.description.substring(0, 80))}...</small></div>
-                <button class="btn btn-danger btn-sm" onclick="deleteSlide(${s.id})">Delete</button>
-            </div>
-        `).join('');
-    }
-    
-    let pendingSlideImage = null;
-    document.getElementById('slideImageInput')?.addEventListener('change', (e) => {
-        if (e.target.files.length) {
-            const file = e.target.files[0];
-            if (file.type.startsWith('image/')) {
-                const reader = new FileReader();
-                reader.onload = (ev) => { 
-                    pendingSlideImage = ev.target.result; 
-                    alert('✅ Image ready! Click "Add Slide to Homepage" to add it.');
-                };
-                reader.readAsDataURL(file);
-            } else {
-                alert('Please select an image file (JPG, PNG, GIF)');
-            }
-        }
-    });
-    
-    function addHomeSlide() {
-        if (!pendingSlideImage) { 
-            alert('❌ Please select an image first using the upload area above.'); 
-            return; 
-        }
-        
-        const title = document.getElementById('newSlideTitle').value.trim();
-        const description = document.getElementById('newSlideDesc').value.trim();
-        
-        if (!title) {
-            alert('❌ Please enter a slide title');
-            return;
-        }
-        if (!description) {
-            alert('❌ Please enter a slide description');
-            return;
-        }
-        
-        const newSlide = {
-            id: Date.now(),
-            title: title,
-            description: description,
-            image: pendingSlideImage,
-            btnText: document.getElementById('newSlideBtnText').value.trim() || 'Learn More',
-            btnLink: document.getElementById('newSlideBtnLink').value
-        };
-        
-        homeSlides.push(newSlide);
-        localStorage.setItem('homeSlides', JSON.stringify(homeSlides));
-        
-        // Clear form
-        pendingSlideImage = null;
-        document.getElementById('newSlideTitle').value = '';
-        document.getElementById('newSlideDesc').value = '';
-        document.getElementById('newSlideBtnText').value = '';
-        document.getElementById('slideImageInput').value = '';
-        
-        // Refresh display
-        loadHomeSlides();
-        loadSlidesForAdmin();
-        
-        alert('✅ New slide added to homepage!');
-    }
-    
-    function deleteSlide(id) {
-        if (confirm('Are you sure you want to delete this slide?')) {
-            homeSlides = homeSlides.filter(s => s.id != id);
-            localStorage.setItem('homeSlides', JSON.stringify(homeSlides));
-            loadHomeSlides();
-            loadSlidesForAdmin();
-            alert('✅ Slide deleted');
-        }
-    }
-    
-    // ============ GALLERY FUNCTIONS ============
-    function loadGallery() {
-        const container = document.getElementById('galleryContainer');
-        if (!container) return;
-        
-        if (galleryItems.length === 0) {
-            container.innerHTML = '<p style="text-align:center; padding:50px;">No images in gallery yet. Upload from admin dashboard.</p>';
-            return;
-        }
-        
-        container.innerHTML = galleryItems.map(i => `
-            <div class="gallery-item" style="background-image: url('${i.url}');" onclick="openImageModal('${i.url}')">
-                <div class="gallery-overlay"><h3>${escapeHtml(i.title)}</h3></div>
-            </div>
-        `).join('');
-    }
-    
-    function loadGalleryForAdmin() {
-        const container = document.getElementById('galleryListAdmin');
-        if (!container) return;
-        
-        if (galleryItems.length === 0) {
-            container.innerHTML = '<p>No images in gallery yet. Upload images above.</p>';
-            return;
-        }
-        
-        container.innerHTML = galleryItems.map(i => `
-            <div class="message-item">
-                <div><strong>${escapeHtml(i.title)}</strong></div>
-                <button class="btn btn-danger btn-sm" onclick="deleteGalleryItem(${i.id})">Delete</button>
-            </div>
-        `).join('');
-    }
-    
-    function deleteGalleryItem(id) {
-        if (confirm('Are you sure you want to delete this image?')) {
-            galleryItems = galleryItems.filter(i => i.id != id);
-            localStorage.setItem('galleryItems', JSON.stringify(galleryItems));
-            loadGallery();
-            loadGalleryForAdmin();
-            alert('✅ Image deleted');
-        }
-    }
-    
-    document.getElementById('galleryFileInput')?.addEventListener('change', (e) => {
-        const files = Array.from(e.target.files);
-        const progressDiv = document.getElementById('galleryProgress');
-        const progressBar = document.getElementById('galleryProgressBar');
-        const progressText = document.getElementById('galleryProgressText');
-        
-        progressDiv.style.display = 'block';
-        let completed = 0;
-        
-        files.forEach((file, index) => {
-            if (file.type.startsWith('image/')) {
-                const reader = new FileReader();
-                reader.onload = (ev) => {
-                    galleryItems.push({ 
-                        id: Date.now() + index, 
-                        url: ev.target.result, 
-                        title: file.name.replace(/\.[^/.]+$/, "").substring(0, 30) 
-                    });
-                    localStorage.setItem('galleryItems', JSON.stringify(galleryItems));
-                    completed++;
-                    progressBar.value = (completed / files.length) * 100;
-                    progressText.innerHTML = `Uploaded ${completed} of ${files.length} images...`;
-                    
-                    if (completed === files.length) {
-                        setTimeout(() => {
-                            progressDiv.style.display = 'none';
-                            progressBar.value = 0;
-                            progressText.innerHTML = '';
-                            loadGallery();
-                            loadGalleryForAdmin();
-                            alert(`✅ ${completed} image(s) uploaded to gallery!`);
-                        }, 500);
-                    }
-                };
-                reader.readAsDataURL(file);
-            } else {
-                completed++;
-                progressBar.value = (completed / files.length) * 100;
-                progressText.innerHTML = `Skipped non-image file`;
-            }
-        });
-        
-        e.target.value = '';
-    });
-    
-    // ============ BLOG FUNCTIONS ============
-    function loadBlogPosts() {
-        const container = document.getElementById('blogPostsContainer');
-        if (!container) return;
-        
-        container.innerHTML = blogPosts.map(p => `
-            <div class="blog-card" onclick="openBlogModal(${p.id})">
-                <div class="blog-media" style="background: linear-gradient(135deg, #2E7D32, #FFC107);">
-                    <i class="fas fa-newspaper" style="font-size: 3rem; color: white;"></i>
-                    <span class="blog-date">📅 ${p.date}</span>
-                </div>
-                <div class="blog-content">
-                    <h3 class="blog-title">${escapeHtml(p.title)}</h3>
-                    <p class="blog-excerpt">${escapeHtml(p.content.substring(0, 120))}...</p>
-                    <button class="read-more-btn">Read More →</button>
-                </div>
-            </div>
-        `).join('');
-    }
-    
-    function loadBlogListForAdmin() {
-        const container = document.getElementById('blogListAdmin');
-        if (!container) return;
-        
-        container.innerHTML = blogPosts.map(p => `
-            <div class="message-item">
-                <div><strong>${escapeHtml(p.title)}</strong><br><small>${p.date}</small></div>
-                <button class="btn btn-danger btn-sm" onclick="deleteBlogPost(${p.id})">Delete</button>
-            </div>
-        `).join('');
-    }
-    
-    let pendingBlogMedia = null;
-    document.getElementById('blogMediaInput')?.addEventListener('change', (e) => {
-        if (e.target.files.length) {
-            const reader = new FileReader();
-            reader.onload = (ev) => { 
-                pendingBlogMedia = ev.target.result; 
-                alert('✅ Media attached to post!');
-            };
-            reader.readAsDataURL(e.target.files[0]);
-        }
-    });
-    
-    function addBlogPost() {
-        const title = document.getElementById('blogTitle').value.trim();
-        const content = document.getElementById('blogContent').value.trim();
-        
-        if (!title) { alert('❌ Please enter a title'); return; }
-        if (!content) { alert('❌ Please enter content'); return; }
-        
-        const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-        const date = `${months[new Date().getMonth()]} ${new Date().getDate()}, ${new Date().getFullYear()}`;
-        
-        blogPosts.unshift({ 
-            id: Date.now(), 
-            title: title, 
-            content: content, 
-            date: date, 
-            media: pendingBlogMedia 
-        });
-        
-        localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
-        pendingBlogMedia = null;
-        
-        document.getElementById('blogTitle').value = '';
-        document.getElementById('blogContent').value = '';
-        document.getElementById('blogMediaInput').value = '';
-        
-        loadBlogPosts();
-        loadBlogListForAdmin();
-        alert('✅ Blog post published!');
-    }
-    
-    function deleteBlogPost(id) {
-        if (confirm('Are you sure you want to delete this post?')) {
-            blogPosts = blogPosts.filter(p => p.id != id);
-            localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
-            loadBlogPosts();
-            loadBlogListForAdmin();
-            alert('✅ Post deleted');
-        }
+    function showPage(pageName) {
+        document.querySelectorAll('.page').forEach(p => p.classList.remove('active-page'));
+        document.getElementById(`${pageName}-page`).classList.add('active-page');
+        document.getElementById('nav-links')?.classList.remove('active');
+        window.scrollTo(0, 0);
     }
     
     function openBlogModal(id) {
-        const post = blogPosts.find(p => p.id == id);
+        const posts = {
+            1: { title: "Welcome to St. Joseph's Practice Primary School", date: "April 18, 2025", content: "We are pleased to announce that our school is dedicated to providing quality education rooted in Christian values. Obi Dan Obi, the excellency. Our commitment to academic excellence and character development ensures that every child receives the best possible foundation for their future." },
+            2: { title: "Academic Excellence at St. Joseph's", date: "April 15, 2025", content: "Our students continue to excel in their studies. We are proud of their achievements and dedication to learning. Building critical thinkers through the pursuit of academic excellence remains our top priority. Congratulations to all our hardworking students and dedicated teachers." },
+            3: { title: "School Events and Activities", date: "April 10, 2025", content: "Check out the latest activities from our school community. Developing moral, social and religious values through various events and activities. From sports day to cultural celebrations, our students are actively engaged in holistic development." }
+        };
+        const post = posts[id];
         if (post) {
             document.getElementById('modalTitle').innerText = post.title;
             document.getElementById('modalDate').innerHTML = `<i class="fas fa-calendar-alt"></i> ${post.date}`;
@@ -913,297 +522,53 @@
             document.getElementById('blogModal').style.display = 'flex';
         }
     }
+    function closeBlogModal() { document.getElementById('blogModal').style.display = 'none'; }
     
-    // ============ CONTACT FUNCTIONS ============
-    function loadMessagesForAdmin() {
-        const container = document.getElementById('messagesList');
-        if (!container) return;
-        
-        if (contactMessages.length === 0) {
-            container.innerHTML = '<p>No messages yet.</p>';
-            return;
-        }
-        
-        container.innerHTML = contactMessages.map(m => `
-            <div class="message-item">
-                <div><strong>${escapeHtml(m.name)}</strong> (${escapeHtml(m.email)})<br><small>${m.date}</small><br>${escapeHtml(m.message)}</div>
-            </div>
-        `).join('');
-    }
+    function openImageModal(url) { document.getElementById('modalImage').src = url; document.getElementById('imageModal').style.display = 'flex'; }
+    function closeImageModal() { document.getElementById('imageModal').style.display = 'none'; }
     
-    document.getElementById('mainContactForm')?.addEventListener('submit', function(e) {
-        e.preventDefault();
-        const name = document.getElementById('contactName').value.trim();
-        const email = document.getElementById('contactEmail').value.trim();
-        const message = document.getElementById('contactMessage').value.trim();
-        
-        if (!name || !email || !message) {
-            alert('❌ Please fill all fields');
-            return;
-        }
-        
-        contactMessages.unshift({ 
-            id: Date.now(), 
-            name: name, 
-            email: email, 
-            message: message, 
-            date: new Date().toLocaleString() 
-        });
-        
-        localStorage.setItem('contactMessages', JSON.stringify(contactMessages));
-        
-        const alertDiv = document.getElementById('contactFormAlert');
-        alertDiv.className = 'alert success';
-        alertDiv.innerHTML = '✅ Message sent! We will reply within 24 hours.';
-        this.reset();
-        
-        setTimeout(() => alertDiv.className = 'alert', 3000);
-    });
-    
-    // ============ SETTINGS FUNCTIONS ============
-    function saveAllSettings() {
-        const fields = ['schoolName', 'schoolTagline', 'address', 'phone', 'email', 'hours', 'statStudents', 'statTeachers', 'statSatisfaction', 'statYears', 'storyText', 'missionText', 'visionText', 'fee1', 'fee2', 'fee3', 'feeNote', 'step1Text', 'step2Text', 'step3Text', 'step4Text'];
-        
-        fields.forEach(f => {
-            const val = document.getElementById(`edit${f.charAt(0).toUpperCase() + f.slice(1)}`)?.value;
-            if (val) localStorage.setItem(f, val);
-        });
-        
-        applySettingsToPage();
-        alert('✅ All settings saved!');
-    }
-    
-    function applySettingsToPage() {
-        document.getElementById('schoolName').innerHTML = localStorage.getItem('schoolName') || '🌟 St. Joseph\'s';
-        document.getElementById('schoolTagline').innerHTML = localStorage.getItem('schoolTagline') || 'Practice Primary School';
-        document.getElementById('displayAddress').innerHTML = localStorage.getItem('address') || '123 Peace Avenue, Kumasi, Ghana';
-        document.getElementById('displayPhone').innerHTML = localStorage.getItem('phone') || '+233 20 123 4567';
-        document.getElementById('displayEmail').innerHTML = localStorage.getItem('email') || 'info@stjosephspractice.edu';
-        document.getElementById('displayHours').innerHTML = localStorage.getItem('hours') || 'Mon-Fri: 7:30 AM – 3:30 PM';
-        document.getElementById('footerAddress').innerHTML = localStorage.getItem('address')?.split(',')[0] || '123 Peace Avenue, Kumasi';
-        document.getElementById('footerPhone').innerHTML = localStorage.getItem('phone') || '+233 20 123 4567';
-        document.getElementById('footerEmail').innerHTML = localStorage.getItem('email') || 'info@stjosephspractice.edu';
-        
-        document.getElementById('statStudents').innerHTML = localStorage.getItem('statStudents') || '1,250+';
-        document.getElementById('statTeachers').innerHTML = localStorage.getItem('statTeachers') || '48+';
-        document.getElementById('statSatisfaction').innerHTML = localStorage.getItem('statSatisfaction') || '98%';
-        document.getElementById('statYears').innerHTML = localStorage.getItem('statYears') || '38';
-        
-        document.getElementById('storyText').innerHTML = localStorage.getItem('storyText') || 'St. Joseph\'s Practice Primary School was founded in 1985...';
-        document.getElementById('missionText').innerHTML = localStorage.getItem('missionText') || 'To nurture confident, compassionate learners...';
-        document.getElementById('visionText').innerHTML = localStorage.getItem('visionText') || 'To be a beacon of holistic education...';
-        
-        document.getElementById('feeAmount1').innerHTML = localStorage.getItem('fee1') || '1,200';
-        document.getElementById('feeAmount2').innerHTML = localStorage.getItem('fee2') || '1,400';
-        document.getElementById('feeAmount3').innerHTML = localStorage.getItem('fee3') || '1,600';
-        document.getElementById('feeNote').innerHTML = `<i class="fas fa-hand-holding-heart"></i> ${localStorage.getItem('feeNote') || 'Scholarships available'}`;
-        
-        document.getElementById('step1Text').innerHTML = localStorage.getItem('step1Text') || 'Fill online form or call office';
-        document.getElementById('step2Text').innerHTML = localStorage.getItem('step2Text') || 'Visit our green campus';
-        document.getElementById('step3Text').innerHTML = localStorage.getItem('step3Text') || 'Age-appropriate readiness check';
-        document.getElementById('step4Text').innerHTML = localStorage.getItem('step4Text') || 'Submit documents and pay fees';
-    }
-    
-    function loadContentToForm() {
-        document.getElementById('editSchoolName').value = localStorage.getItem('schoolName') || '';
-        document.getElementById('editSchoolTagline').value = localStorage.getItem('schoolTagline') || '';
-        document.getElementById('editAddress').value = localStorage.getItem('address') || '';
-        document.getElementById('editPhone').value = localStorage.getItem('phone') || '';
-        document.getElementById('editEmail').value = localStorage.getItem('email') || '';
-        document.getElementById('editHours').value = localStorage.getItem('hours') || '';
-        document.getElementById('editStatStudents').value = localStorage.getItem('statStudents') || '';
-        document.getElementById('editStatTeachers').value = localStorage.getItem('statTeachers') || '';
-        document.getElementById('editStatSatisfaction').value = localStorage.getItem('statSatisfaction') || '';
-        document.getElementById('editStatYears').value = localStorage.getItem('statYears') || '';
-        document.getElementById('editStoryText').value = localStorage.getItem('storyText') || '';
-        document.getElementById('editMissionText').value = localStorage.getItem('missionText') || '';
-        document.getElementById('editVisionText').value = localStorage.getItem('visionText') || '';
-        document.getElementById('editFee1').value = localStorage.getItem('fee1') || '';
-        document.getElementById('editFee2').value = localStorage.getItem('fee2') || '';
-        document.getElementById('editFee3').value = localStorage.getItem('fee3') || '';
-        document.getElementById('editFeeNote').value = localStorage.getItem('feeNote') || '';
-        document.getElementById('editStep1Text').value = localStorage.getItem('step1Text') || '';
-        document.getElementById('editStep2Text').value = localStorage.getItem('step2Text') || '';
-        document.getElementById('editStep3Text').value = localStorage.getItem('step3Text') || '';
-        document.getElementById('editStep4Text').value = localStorage.getItem('step4Text') || '';
-    }
-    
-    // ============ PAGE NAVIGATION ============
-    function showPage(pageName) {
-        if (pageName === 'admin' && !isAdminLoggedIn) { showPage('adminLogin'); return; }
-        
-        document.querySelectorAll('.page').forEach(p => p.classList.remove('active-page'));
-        document.getElementById(`${pageName}-page`).classList.add('active-page');
-        document.getElementById('nav-links')?.classList.remove('active');
-        window.scrollTo(0, 0);
-        
-        if (pageName === 'admin' && isAdminLoggedIn) {
-            loadMessagesForAdmin(); 
-            loadBlogListForAdmin(); 
-            loadGalleryForAdmin(); 
-            loadSlidesForAdmin(); 
-            loadContentToForm();
-        }
-    }
-    
-    // ============ ADMIN LOGIN ============
-    document.getElementById('adminLoginForm')?.addEventListener('submit', function(e) {
-        e.preventDefault();
-        const user = document.getElementById('adminUsername').value;
-        const pass = document.getElementById('adminPassword').value;
-        
-        if (user === ADMIN_USERNAME && pass === ADMIN_PASSWORD) {
-            isAdminLoggedIn = true;
-            sessionStorage.setItem('adminLoggedIn', 'true');
-            showPage('admin');
-        } else {
-            const alert = document.getElementById('adminLoginAlert');
-            alert.className = 'alert error';
-            alert.innerHTML = '❌ Invalid username or password';
-            setTimeout(() => alert.className = 'alert', 2000);
-        }
-    });
-    
-    function adminLogout() { 
-        isAdminLoggedIn = false; 
-        sessionStorage.removeItem('adminLoggedIn'); 
-        showPage('adminLogin'); 
-    }
-    
-    function updateAdminCredentials() {
-        const newUser = document.getElementById('newUsername').value.trim();
-        const currPass = document.getElementById('currentPassword').value;
-        const newPass = document.getElementById('newPassword').value;
-        const confirm = document.getElementById('confirmPassword').value;
-        
-        if (currPass !== ADMIN_PASSWORD) { 
-            alert('❌ Current password incorrect'); 
-            return; 
-        }
-        
-        if (newUser) ADMIN_USERNAME = newUser;
-        
-        if (newPass) {
-            if (newPass.length < 6) { 
-                alert('❌ Password must be at least 6 characters'); 
-                return; 
-            }
-            if (newPass !== confirm) { 
-                alert('❌ Passwords do not match'); 
-                return; 
-            }
-            ADMIN_PASSWORD = newPass;
-        }
-        
-        localStorage.setItem('adminUsername', ADMIN_USERNAME);
-        localStorage.setItem('adminPassword', ADMIN_PASSWORD);
-        alert('✅ Credentials updated! Please login again.');
-        adminLogout();
-    }
-    
-    function switchAdminTab(tab) {
-        document.querySelectorAll('.admin-section').forEach(s => s.classList.remove('active-section'));
-        document.getElementById(`admin${tab.charAt(0).toUpperCase() + tab.slice(1)}`).classList.add('active-section');
-        document.querySelectorAll('.admin-tab').forEach(t => t.classList.remove('active'));
-        event.target.classList.add('active');
-        
-        if (tab === 'settings') loadContentToForm();
-        if (tab === 'slides') loadSlidesForAdmin();
-        if (tab === 'gallery') loadGalleryForAdmin();
-        if (tab === 'blog') loadBlogListForAdmin();
-        if (tab === 'messages') loadMessagesForAdmin();
-    }
-    
-    // ============ PARENT PORTAL ============
     document.getElementById('portalLoginForm')?.addEventListener('submit', function(e) {
         e.preventDefault();
-        document.getElementById('portalLoginSection').style.display = 'none';
+        document.getElementById('portalLoginSection')?.classList?.add('hidden');
         document.getElementById('portalDashboard').style.display = 'block';
     });
+    function portalLogout() { document.getElementById('portalDashboard').style.display = 'none'; document.getElementById('portalLoginSection')?.classList?.remove('hidden'); }
+    function sendTeacherMessage() { const msg = document.getElementById('teacherMessage').value; if(msg) { document.getElementById('messageResponse').innerHTML = '✅ Message sent!'; document.getElementById('teacherMessage').value = ''; setTimeout(() => document.getElementById('messageResponse').innerHTML = '', 3000); } }
     
-    function portalLogout() { 
-        document.getElementById('portalDashboard').style.display = 'none'; 
-        document.getElementById('portalLoginSection').style.display = 'block'; 
-    }
-    
-    function sendTeacherMessage() { 
-        const msg = document.getElementById('teacherMessage').value.trim();
-        if (msg) { 
-            document.getElementById('messageResponse').innerHTML = '✅ Message sent to teacher!'; 
-            document.getElementById('teacherMessage').value = ''; 
-            setTimeout(() => document.getElementById('messageResponse').innerHTML = '', 3000); 
-        } else { 
-            alert('Please type a message'); 
-        } 
-    }
-    
-    // ============ OTHER FUNCTIONS ============
-    function openImageModal(url) { 
-        document.getElementById('modalImage').src = url; 
-        document.getElementById('imageModal').style.display = 'flex'; 
-    }
-    
-    function closeImageModal() { 
-        document.getElementById('imageModal').style.display = 'none'; 
-    }
-    
-    function closeBlogModal() { 
-        document.getElementById('blogModal').style.display = 'none'; 
-    }
-    
-    function toggleChat() { 
-        document.getElementById('chatBox').classList.toggle('active'); 
-    }
-    
+    function toggleChat() { document.getElementById('chatBox').classList.toggle('active'); }
     function sendChatMessage() {
-        const input = document.getElementById('chatInput');
-        const msg = input.value.trim();
+        const input = document.getElementById('chatInput'), msg = input.value.trim();
         if (!msg) return;
-        
         const chat = document.getElementById('chatMessages');
-        chat.innerHTML += `<div class="chat-message user">${escapeHtml(msg)}</div>`;
+        chat.innerHTML += `<div class="chat-message user">${msg}</div>`;
         input.value = '';
-        
         setTimeout(() => {
-            let reply = "Thanks for reaching out! Call our office for more info.";
-            const lower = msg.toLowerCase();
-            if (lower.includes('admission')) reply = "📚 Admissions info on our About page!";
-            if (lower.includes('fee')) reply = "💰 Fee structure is on our About page.";
-            if (lower.includes('sports')) reply = "🏆 Sports Day is on April 5, 2025!";
+            let reply = "Thanks for reaching out! Call 0243848808 for more info.";
+            if (msg.toLowerCase().includes('admission')) reply = "📚 Admissions info on our About page! Call 0243848808.";
+            if (msg.toLowerCase().includes('fee')) reply = "💰 Fee details coming soon. Contact the school office.";
             chat.innerHTML += `<div class="chat-message bot">${reply}</div>`;
             chat.scrollTop = chat.scrollHeight;
         }, 500);
     }
     
-    function escapeHtml(text) {
-        if (!text) return '';
-        return text
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;')
-            .replace(/'/g, '&#39;');
-    }
-    
-    document.getElementById('mobile-menu')?.addEventListener('click', () => { 
-        document.getElementById('nav-links').classList.toggle('active'); 
+    document.getElementById('mainContactForm')?.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const name = document.getElementById('contactName').value;
+        const email = document.getElementById('contactEmail').value;
+        const message = document.getElementById('contactMessage').value;
+        if (name && email && message) {
+            const alertDiv = document.getElementById('contactFormAlert');
+            alertDiv.className = 'alert success';
+            alertDiv.innerHTML = '✅ Message sent! We will reply within 24 hours.';
+            this.reset();
+            setTimeout(() => alertDiv.className = 'alert', 3000);
+        }
     });
     
-    // Initialize other sliders
-    new Swiper('.aboutSwiper', { loop: true, autoplay: { delay: 5000 }, pagination: { el: '.swiper-pagination', clickable: true }, navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' } });
-    new Swiper('.blogSwiper', { loop: true, autoplay: { delay: 5000 }, pagination: { el: '.swiper-pagination', clickable: true }, navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' } });
-    new Swiper('.gallerySwiper', { loop: true, autoplay: { delay: 5000 }, pagination: { el: '.swiper-pagination', clickable: true }, navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' } });
+    document.getElementById('mobile-menu')?.addEventListener('click', () => { document.getElementById('nav-links').classList.toggle('active'); });
     
+    new Swiper('.homeSwiper', { loop: true, autoplay: { delay: 5000 }, pagination: { el: '.swiper-pagination', clickable: true }, navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }, effect: 'fade' });
     AOS.init({ duration: 800, once: true });
-    
-    // Load all content
-    loadHomeSlides();
-    loadBlogPosts();
-    loadGallery();
-    applySettingsToPage();
-    loadSlidesForAdmin();
-    loadGalleryForAdmin();
-    loadBlogListForAdmin();
 </script>
 </body>
 </html>
